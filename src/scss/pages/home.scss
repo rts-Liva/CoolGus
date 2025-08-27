@@ -1,0 +1,44 @@
+@use '../placeholders/root.scss';
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    margin-left: 2rem;
+
+    &__heading {
+        font-size: 2.875em;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        margin-top: 1lh;
+    }
+}
+
+.events {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+
+    &__heading {
+        font-size: 1.5em;
+        font-weight: 600;
+        margin-right: 2rem;
+        text-align: end;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .events {
+        align-self: end;
+    }
+}

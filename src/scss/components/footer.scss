@@ -1,0 +1,32 @@
+@use '../placeholders/root.scss';
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: root.$primary-green;
+
+    &__address {
+        font-style: normal;
+        font-size: .87em;
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+        gap: .3rem;
+
+        svg {
+            font-size: 1.2rem;
+        }
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+
+        &-item {
+            font-size: 1.5rem;
+        }
+    }
+}

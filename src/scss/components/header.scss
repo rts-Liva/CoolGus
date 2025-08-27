@@ -1,0 +1,29 @@
+@use '../placeholders/root.scss';
+
+.header {
+    padding: .5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+        width: 5rem;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+
+        &-item {
+            text-transform: uppercase;
+            font-weight: 500;
+            padding-inline: .8rem;
+            transition: 300ms;
+
+            &.active, &:hover {
+                border-top: 1.5px solid root.$accent-green;
+            }
+        }
+    }
+}

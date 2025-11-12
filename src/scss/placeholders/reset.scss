@@ -1,0 +1,49 @@
+@use './root.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    color: inherit;
+    font-family: inherit;
+}
+
+html {
+    font-family: 'DM Sans', 'sans-serif';
+    color: root.$typeography-primary;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url('../../../public/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 0;
+        bottom: 0;
+        width: 100vw;
+        background: root.$gradient-black;
+        z-index: -1;
+    }
+}

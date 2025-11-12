@@ -31,18 +31,19 @@ body {
     background-image: url('../../../public/background.png');
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    min-height: 100dvh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
     &::after {
         content: '';
-        position: absolute;
+        position: fixed;
         display: block;
         top: 0;
         bottom: 0;
-        width: 100vw;
+        width: 100dvw;
+        min-height: 100dvh;
         background: root.$gradient-black;
         z-index: -1;
     }

@@ -21,7 +21,7 @@
         right: 0;
         bottom: 0;
         backdrop-filter: brightness(50%) blur(3px);
-        z-index: 1;
+        z-index: 2;
         transform: translateX(0%);
         transition: 300ms ease-in-out;
 
@@ -52,7 +52,7 @@
             font-weight: 500;
             padding-inline: .8rem;
             transition: 300ms;
-            border-top: 1.8px solid transparent;
+            border-top: 2px solid transparent;
             font-size: 1.2rem;
 
             &.active,

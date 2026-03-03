@@ -8,7 +8,7 @@ function Footer() {
                 href="https://maps.app.goo.gl/U5gtyfY5ttQ4BVuL6"
                 target="_blank"
                 className="footer__address"
-            ><FiMapPin />Søbjergvej 4, Ringsted, Denmark</a>
+            ><FiMapPin />Søbjergvej 4, Ringsted 4100 Danmark</a>
             <ul className="footer__list">
                 <li><a
                     href="https://www.facebook.com/profile.php?id=61576947046223&mibextid=wwXIfr&rdid=CEIX6FsHn2lR0VPg&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1RMaxHFKXS%2F%3Fmibextid%3DwwXIfr"

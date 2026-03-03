@@ -18,7 +18,7 @@ function GallerySlider({ sliderImageFiles }) {
     return (
         <div className="embla">
             <button className="embla__btn" onClick={scrollPrev}><FaChevronLeft /></button>
-            <div ref={emblaRef}>
+            <div ref={emblaRef} className='embla__gradient'>
                 <div className="embla__container">
                     {sliderImageFiles.map((image, index) => (
                         <img key={index} src={`images/slider/${image}`} alt="slider billede" className="embla__slide" />

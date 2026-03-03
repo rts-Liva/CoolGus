@@ -1,0 +1,21 @@
+@use '../placeholders/root.scss';
+
+.events {
+    &--large {
+        margin-inline: 2rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    &__heading--large {
+        text-align: center;
+        font-size: 1.75em;
+        margin-bottom: 7rem;
+        margin-right: 0;
+    }
+
+}
